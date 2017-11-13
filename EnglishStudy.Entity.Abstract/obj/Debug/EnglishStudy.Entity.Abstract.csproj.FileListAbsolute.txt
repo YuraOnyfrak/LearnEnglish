@@ -1,0 +1,11 @@
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\bin\Debug\EnglishStudy.Entity.Abstract.exe.config
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\bin\Debug\EnglishStudy.Entity.Abstract.exe
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\bin\Debug\EnglishStudy.Entity.Abstract.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\App.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract_MarkupCompile.cache
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.Properties.Resources.resources
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csproj.GenerateResource.Cache
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csproj.CoreCompileInputs.cache
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.exe
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csprojResolveAssemblyReference.cache

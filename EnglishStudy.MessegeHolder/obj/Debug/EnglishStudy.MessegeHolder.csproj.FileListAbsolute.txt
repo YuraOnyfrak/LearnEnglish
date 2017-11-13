@@ -1,0 +1,10 @@
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\bin\Debug\EnglishStudy.MessegeHolder.exe.config
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\bin\Debug\EnglishStudy.MessegeHolder.exe
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\bin\Debug\EnglishStudy.MessegeHolder.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\App.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\EnglishStudy.MessegeHolder_MarkupCompile.cache
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\EnglishStudy.MessegeHolder.Properties.Resources.resources
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\EnglishStudy.MessegeHolder.csproj.GenerateResource.Cache
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\EnglishStudy.MessegeHolder.csproj.CoreCompileInputs.cache
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\EnglishStudy.MessegeHolder.exe
+E:\Програмування\EnglishStudy\EnglishStudy.MessegeHolder\obj\Debug\EnglishStudy.MessegeHolder.pdb

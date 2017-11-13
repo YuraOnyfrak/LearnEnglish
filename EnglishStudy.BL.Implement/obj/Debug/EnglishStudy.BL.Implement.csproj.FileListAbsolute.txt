@@ -1,0 +1,11 @@
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.BL.Implement.exe.config
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.BL.Implement.exe
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.BL.Implement.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\App.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement_MarkupCompile.cache
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.Properties.Resources.resources
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csproj.GenerateResource.Cache
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csproj.CoreCompileInputs.cache
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.exe
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csprojResolveAssemblyReference.cache

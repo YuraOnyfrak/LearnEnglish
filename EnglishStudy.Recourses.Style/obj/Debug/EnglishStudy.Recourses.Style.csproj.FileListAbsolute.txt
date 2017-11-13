@@ -1,0 +1,10 @@
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\bin\Debug\EnglishStudy.Recourses.Style.exe.config
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\bin\Debug\EnglishStudy.Recourses.Style.exe
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\bin\Debug\EnglishStudy.Recourses.Style.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\App.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style_MarkupCompile.cache
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.Properties.Resources.resources
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.csproj.GenerateResource.Cache
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.csproj.CoreCompileInputs.cache
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.exe
+E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.pdb
