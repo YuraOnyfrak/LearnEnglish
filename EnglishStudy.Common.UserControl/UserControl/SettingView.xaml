@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:EnglishStudy.Common.UserControl.UserControl"
+             
              mc:Ignorable="d" >
     <UserControl.Resources>
         <Style TargetType="MenuItem">
@@ -51,9 +51,11 @@
 
     </UserControl.Resources>
 
-    <Grid >
 
-        <DockPanel LastChildFill="True">
+
+    <Grid Background ="{DynamicResource St}" >
+        <!--Background="{ms:MyStyleRef ResourceKey= St}"-->
+        <!--<DockPanel LastChildFill="True">
             <Menu DockPanel.Dock="Top" FontSize="25" Padding="10">
                 <Menu.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -67,7 +69,7 @@
 
                 <MenuItem Header="Налаштування" Cursor="Hand" Foreground="White" FontWeight="SemiBold">
 
-                    <MenuItem x:Name="SettigGame"   Header="Налаштування гри " Command="{Binding SettigGame}" Click="SettigGame_Click" >
+                    <MenuItem x:Name="SettigGame"   Header="Налаштування гри " Command="{Binding SettigGame}" >
                         <MenuItem.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 
@@ -76,7 +78,7 @@
                         </MenuItem.Background>
 
                     </MenuItem>
-                    <MenuItem  x:Name="SettigButton" Header="Налаштування кнопок" Command="{Binding SettigButton}" Click="SettigButton_Click" >
+                    <MenuItem  x:Name="SettigButton" Header="Налаштування кнопок" Command="{Binding SettigButton}" >
                         <MenuItem.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 
@@ -86,7 +88,7 @@
 
                     </MenuItem>
 
-                    <MenuItem  x:Name="Style" Header="Вибір стилю" Click="Style_Click" >
+                    <MenuItem  x:Name="Style" Header="Вибір стилю"  >
                         <MenuItem.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 
@@ -94,7 +96,7 @@
                             </LinearGradientBrush>
                         </MenuItem.Background>
                     </MenuItem>
-                    <MenuItem  x:Name="Command" Header="Створення команд" Click="Command_Click" >
+                    <MenuItem  x:Name="Command" Header="Створення команд" >
                         <MenuItem.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 
@@ -103,53 +105,53 @@
                         </MenuItem.Background>
                     </MenuItem>
                 </MenuItem>
-                <!--Click="MenuItem_Click"-->
-                <MenuItem Header="Справка" Cursor="Hand" Foreground="White" Click="MenuItem_Click" FontWeight="SemiBold"></MenuItem>
+                
+                <MenuItem Header="Справка" Cursor="Hand" Foreground="White"  FontWeight="SemiBold"></MenuItem>
             </Menu>
 
 
 
             <DockPanel LastChildFill="True" >
                 <GroupBox Header="Вибір стилю"  FontSize="20" Foreground="Red" Margin="10" DockPanel.Dock="Left">
-                    <StackPanel   Orientation="Vertical" Margin="10">
+                    <StackPanel   Orientation="Vertical" Margin="10" Background="{DynamicResource St}">
                         <Label Content="Вибір стилю:"  Foreground="White" FontSize="28" Padding="10" />
                         <ComboBox x:Name="styleBox"  Margin="10" Padding="10"/>
                         <Label Content="Вибір іконки:"  Foreground="White" FontSize="28" Padding="10" />
                         <StackPanel>
                             <StackPanel Orientation="Horizontal" >
-                                <RadioButton Content="Іконка" Name="icon1" Margin="10" GroupName="icon" Checked="icon1_Checked"></RadioButton>
-                                <Image  Width="30" Height="30" Source="/Resourse/chat.ico"></Image>
+                                <RadioButton Content="Іконка" Name="icon1" Margin="10" GroupName="icon" ></RadioButton>
+                                <Image  Width="30" Height="30" ></Image>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" >
-                                <RadioButton Content="Іконка" Margin="10" GroupName="icon" Name="icon2" Checked="icon2_Checked"></RadioButton>
-                                <Image  Width="30" Height="30" Source="/Resourse/appstore.ico"></Image>
+                                <RadioButton Content="Іконка" Margin="10" GroupName="icon" Name="icon2" ></RadioButton>
+                                <Image  Width="30" Height="30" ></Image>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" >
-                                <RadioButton Content="Іконка" Margin="10" GroupName="icon" Name="icon3" Checked="icon3_Checked"></RadioButton>
-                                <Image  Width="30" Height="30" Source="/Resourse/browser.ico"></Image>
+                                <RadioButton Content="Іконка" Margin="10" GroupName="icon" Name="icon3" ></RadioButton>
+                                <Image  Width="30" Height="30" ></Image>
                             </StackPanel>
                         </StackPanel>
-                        <!--<StackPanel.Background>
+                        --><!--<StackPanel.Background>
                                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                                 <GradientStop Color="AliceBlue" Offset="0"/>
                                                 <GradientStop Color="#FF0C1FF3" Offset="0.413"/>
                                             </LinearGradientBrush>
-                                        </StackPanel.Background>-->
+                                        </StackPanel.Background>--><!--
                     </StackPanel>
 
                 </GroupBox>
                 <GroupBox Header="Вибір теми" FontSize="20" Foreground="Red" Margin="10">
                     <UniformGrid>
-                        <Image  Cursor="Hand" x:Name="image1" Source="/Resourse/image1.jpg" MinWidth="250" MaxHeight="170" Margin="20" MouseDown="cat_MouseDown"></Image>
-                        <Image  Cursor="Hand" Source="/Resourse/image2.jpg" MinWidth="250" MaxHeight="170" Margin="20" MouseDown="image2_MouseDown" ></Image>
-                        <Image Cursor="Hand"  Source="/Resourse/image3.jpg" MinWidth="250" MaxHeight="170" Margin="20" MouseDown="image3_MouseDown"></Image>
-                        <Image  Cursor="Hand" Name="image4" Source="/Resourse/image4.jpg" MinWidth="250" MaxHeight="170" Margin="20" MouseDown="image4_MouseDown"></Image>
+                        <Image  Cursor="Hand" x:Name="image1"  MinWidth="250" MaxHeight="170" Margin="20"></Image>
+                        <Image  Cursor="Hand"  MinWidth="250" MaxHeight="170" Margin="20" ></Image>
+                        <Image Cursor="Hand"   MinWidth="250" MaxHeight="170" Margin="20" ></Image>
+                        <Image  Cursor="Hand" Name="image4"  MinWidth="250" MaxHeight="170" Margin="20" ></Image>
 
                     </UniformGrid>
                 </GroupBox>
             </DockPanel>
 
-        </DockPanel>
+        </DockPanel>-->
 
     </Grid>
 </UserControl>

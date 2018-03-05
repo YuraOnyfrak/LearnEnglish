@@ -8,4 +8,3 @@ E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debu
 E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csproj.CoreCompileInputs.cache
 E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.pdb
-E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csprojResolveAssemblyReference.cache

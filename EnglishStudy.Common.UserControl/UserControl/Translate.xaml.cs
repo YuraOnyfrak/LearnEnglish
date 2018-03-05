@@ -24,5 +24,7 @@ namespace EnglishStudy.Common.UserControl.UserControl
         {
             InitializeComponent();
         }
+
+        
     }
 }

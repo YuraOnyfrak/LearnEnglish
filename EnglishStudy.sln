@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishStudy.Recourses.Styl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishStudy.BL.Implement", "EnglishStudy.BL.Implement\EnglishStudy.BL.Implement.csproj", "{230759B3-6E0C-4EC1-AD19-9E108433CCC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishStudy.DB.Implement", "EnglishStudy.DB.Abstract\EnglishStudy.DB.Implement.csproj", "{9C072E27-65A3-401B-A8AE-2AFE192030AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{230759B3-6E0C-4EC1-AD19-9E108433CCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{230759B3-6E0C-4EC1-AD19-9E108433CCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{230759B3-6E0C-4EC1-AD19-9E108433CCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C072E27-65A3-401B-A8AE-2AFE192030AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C072E27-65A3-401B-A8AE-2AFE192030AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C072E27-65A3-401B-A8AE-2AFE192030AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C072E27-65A3-401B-A8AE-2AFE192030AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

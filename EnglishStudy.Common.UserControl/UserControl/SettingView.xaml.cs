@@ -18,7 +18,7 @@ namespace EnglishStudy.Common.UserControl.UserControl
     /// <summary>
     /// Interaction logic for SettingView.xaml
     /// </summary>
-    public partial class SettingView : UserControl
+    public partial class SettingView 
     {
         public SettingView()
         {

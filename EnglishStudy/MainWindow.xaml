@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:EnglishStudy"
         mc:Ignorable="d"
         Title="MainWindow" WindowState="Maximized">
-    <Grid>
-        
-    </Grid>
+    
 </Window>

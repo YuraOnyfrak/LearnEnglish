@@ -13,7 +13,7 @@ using EnglishStudy.Entity.Abstract.Enum;
 
 namespace EnglishStudy.Common.Resources.VM.VMForUserControl
 {
-    public class DesignerWordsVM :ViewModelBase
+    public class DesignerWordsVM : ViewModelBase
     {
         private IMainWindowsCodeBehind _codeBehind;
 
@@ -21,14 +21,13 @@ namespace EnglishStudy.Common.Resources.VM.VMForUserControl
 
         private int _count = 0;
 
-        private  int _index = 1;
-
-        
+        private  int _index = 1;        
 
         ObservableCollection<TextBox> _emptyWordCollection;
 
         ObservableCollection<TextBox> _englishWordCollection;
         private int _indexEWC = 0;
+        private string _englishWord;
 
         public ObservableCollection<TextBox> EnglishWordCollection
         {
@@ -119,9 +118,18 @@ namespace EnglishStudy.Common.Resources.VM.VMForUserControl
 
         private void NextWord()
         {
-            if (_index < 6)
-            {
-                char[] _word = _data.GetDictionary.Values.ElementAt(_index).WordEngl.ToCharArray();
+            _indexEWC = 0;
+
+            if (_index < Word.CountWordForLearning)
+            {                
+
+                _englishWord = _data.GetDictionary.Values.ElementAt(_index).WordEngl;
+
+                string _previousEnglishWord = _data.GetDictionary.Values.ElementAt(_index-1).WordEngl;
+
+                IsCorrectAnswer(_previousEnglishWord);
+
+                char[] _word = _englishWord.ToCharArray();
 
                 _emptyWordCollection = null;
 
@@ -177,6 +185,8 @@ namespace EnglishStudy.Common.Resources.VM.VMForUserControl
                     }
                 }
 
+               
+
                 _index++;
                
             }
@@ -190,6 +200,22 @@ namespace EnglishStudy.Common.Resources.VM.VMForUserControl
         public DesignerWordsVM(IMainWindowsCodeBehind codeBehind)
         {            
             _codeBehind = codeBehind;
+            
+        }
+
+        private void IsCorrectAnswer(string englWord)
+        {
+            string _answer = null;
+
+            foreach (var item in _emptyWordCollection)
+            {
+                _answer += item.Text;
+            }
+
+            if (englWord.Equals(_answer))
+            {
+                Word.MarksArray[_index-1] += 1;
+            }
             
         }
     }

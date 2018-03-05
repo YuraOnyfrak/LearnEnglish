@@ -8,37 +8,84 @@
     <Grid>
         <DockPanel LastChildFill="True">
             <Grid DockPanel.Dock="Left" Background="AliceBlue" >
-                <StackPanel Orientation="Horizontal" Height="45" VerticalAlignment="Top">
-                    <Button Name="btnReverse" Content="Button" Width="75" Height="39" />
-                    <Button Content="Український"  Width="75" Height="39"  />
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal"  VerticalAlignment="Top">
 
-                    <Button Content="Button" Width="75" Height="39" />
+                        <Button Content="Український" Padding="10" Margin="15" />
 
-                    <ComboBox Name="TranlateWith"  Width="120"  />
+                        <Button Content="Button" Padding="10" Margin="15"  />
 
+                        <ComboBox Name="TranlateWith" Padding="10" Margin="15" ItemsSource="{Binding SalesPeriods}" SelectedItem="{Binding SelectedItem}"/>
+
+                    </StackPanel>
+                    <RichTextBox  Name="rbWordBeforeTranslate"  MinHeight="300" Width="389">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="{Binding TextForTranslate, UpdateSourceTrigger=PropertyChanged}"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
                 </StackPanel>
-                <RichTextBox  Name="rbWordBeforeTranslate"  Width="296"  Height="159">
-                    <FlowDocument>
-                        <Paragraph>
-                            <Run Text=""/>
-                        </Paragraph>
-                    </FlowDocument>
-                </RichTextBox>
+            </Grid>
+            <Grid DockPanel.Dock="Right" Background="AntiqueWhite">
+                <StackPanel  >
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Content="Англійський" Padding="10" Margin="15"  />
+                        <Button Content="Button" Padding="10" Margin="15" />
+                        <ComboBox  Name="TranlateOn"  Padding="10" Margin="15" ItemsSource="{Binding SalesPeriods}" SelectedItem="{Binding SelectedItemTwo}" ></ComboBox>
+                        <Button Name="btnTranslate" Content="translate" Command="{Binding TranslateCommand}" Padding="10" Margin="15"   />
+                    </StackPanel>
+                    <RichTextBox Name="rbWordAfterTranslate"  MinHeight="300">
+                        <FlowDocument/>
+                    </RichTextBox>
+                </StackPanel>
+            </Grid>
+            <Grid>
+                <Button Name="btnReverse" Content="reverse" Padding="10"  VerticalAlignment="Top" Margin=" 10 50"/>
+            </Grid>
+
+        </DockPanel>
+        
+        <!--<DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Left" Background="AliceBlue" >
+                <StackPanel DockPanel.Dock="Left">
+                    <StackPanel Orientation="Horizontal"  VerticalAlignment="Top">
+                    
+                        <Button Content="Український" Padding="10" Margin="15" />
+
+                        <Button Content="Button" Padding="10" Margin="15"  />
+
+                        <ComboBox Name="TranlateWith" Padding="10" Margin="15" ItemsSource="{Binding SalesPeriods}" SelectedItem="{Binding SelectedItem}"/>
+
+                    </StackPanel>
+                    <RichTextBox  Name="rbWordBeforeTranslate"  MinHeight="300">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </StackPanel>
+                
 
             </Grid>
             <Grid DockPanel.Dock="Right" Background="AntiqueWhite" >
-                <StackPanel Orientation="Horizontal" Height="45" VerticalAlignment="Top">
-                    <Button Content="Англійський" Width="75" Height="39" />
-                    <Button Content="Button" Width="75" Height="39"/>
-                    <ComboBox  Name="TranlateOn"  Width="120" ></ComboBox>
+                <StackPanel DockPanel.Dock="Right" >
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button Content="Англійський" Padding="10" Margin="15"  />
+                        <Button Content="Button" Padding="10" Margin="15" />
+                        <ComboBox  Name="TranlateOn"  Padding="10" Margin="15"  ></ComboBox>
+                        <Button Name="btnTranslate" Content="translate" Padding="10" Margin="15"   />
+                    </StackPanel>
+                    <RichTextBox Name="rbWordAfterTranslate"  MinHeight="300">
+                        <FlowDocument/>
+                    </RichTextBox>
                 </StackPanel>
-                <RichTextBox Name="rbWordAfterTranslate"  Width="332"  Height="150">
-                    <FlowDocument/>
-                </RichTextBox>
+                
             </Grid>
             <Grid>
-                <Button Name="btnTranslate" Content="Button"  Width="75" Height="39"/>
+                <Button Name="btnReverse" Content="reverse" Padding="10"  VerticalAlignment="Top" Margin=" 10 50"/>
             </Grid>
-        </DockPanel>
+        </DockPanel>-->
     </Grid>
 </UserControl>

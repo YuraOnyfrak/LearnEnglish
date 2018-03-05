@@ -8,6 +8,7 @@ using EnglishStudy.BL.Implement.Implement;
 using System.Linq;
 using System.Windows;
 using EnglishStudy.Entity.Abstract.Enum;
+using System.Windows.Media;
 
 namespace EnglishLearn.Common.Resources.VM.VMForUserControl
 {
@@ -152,7 +153,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         {
             get
             {
-                return new RelayCommand(x => this.ShooseWordVersionOne(_englishWord, _versionOne, _transcription));
+                return new RelayCommand(x => this.ShooseWord(_englishWord, _versionOne, _transcription));
             }
         }        
 
@@ -160,7 +161,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         {
             get
             {
-                return new RelayCommand(x => this.ShooseWordVersionOne(_englishWord, _versionTwo, _transcription));
+                return new RelayCommand(x => this.ShooseWord(_englishWord, _versionTwo, _transcription));
             }
         }
 
@@ -168,7 +169,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         {
             get
             {
-                return new RelayCommand(x => this.ShooseWordVersionOne(_englishWord, _versionTwo, _transcription));
+                return new RelayCommand(x => this.ShooseWord(_englishWord, _versionTwo, _transcription));
             }
         }
 
@@ -176,7 +177,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         {
             get
             {
-                return new RelayCommand(x => this.ShooseWordVersionOne(_englishWord, _versionTwo, _transcription));
+                return new RelayCommand(x => this.ShooseWord(_englishWord, _versionTwo, _transcription));
             }
         }
 
@@ -184,7 +185,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         {
             get
             {
-                return new RelayCommand(x => this.ShooseWordVersionOne(_englishWord, _versionTwo, _transcription));
+                return new RelayCommand(x => this.ShooseWord(_englishWord, _versionTwo, _transcription));
             }
         }
 
@@ -192,15 +193,48 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         {
             get
             {
-                return new RelayCommand(x => this.ShooseWordVersionOne(_englishWord, _versionTwo, _transcription));
+                return new RelayCommand(x => this.ShooseWord(_englishWord, _versionTwo, _transcription));
             }
         }
 
         #endregion
 
-        private void ShooseWordVersionOne(string englishWord, string versionOne, string transcription)
+
+        private Brush _brushobj;
+        private int _indexMark = 0;
+
+        public Brush BrushObj
+        {
+            get
+            {
+                return _brushobj;
+            }
+            set
+            {
+                _brushobj = value;
+                OnPropertyChanged("BrushObj");
+               
+            }
+        }
+        
+        private void ShooseWord(string englishWord, string version, string transcription)
         {
 
+            if (data.GetDictionary.Values.Contains(new Word(version,englishWord,transcription)))
+            {
+                MessageBox.Show("");               
+                BrushObj = (Brush)new BrushConverter().ConvertFromString("Green");
+              
+            }
+
+            else
+            {
+               
+                BrushObj = (Brush)new BrushConverter().ConvertFromString("Red");
+                Word.MarksArray[_indexMark] += 1;
+            }
+
+            _indexMark++;
         }
 
         private void NextWord()
@@ -210,7 +244,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
                 var _currentItem = data.GetDictionary.Values.ElementAt(_index);
                 EnglishWord = _currentItem.WordEngl;
                 Transcription = _currentItem.WordTranscription;
-                VersionOne = data.GetUkrWord();
+                VersionOne = data.GetUkrWord();                
                 VersionTwo = data.GetUkrWord();
                 VersionThree = data.GetUkrWord();
                 VersionFour = data.GetUkrWord();
@@ -227,7 +261,6 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
             }
         }
 
-
         public TestVM(IMainWindowsCodeBehind codeBehind)
         {
             _codeBehind = codeBehind;
@@ -240,10 +273,10 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
             _versionThree = data.GetUkrWord();
             _versionFour = data.GetUkrWord();
             _versionFive = data.GetUkrWord();
-            _versionSix = data.GetUkrWord();
-
+            _versionSix = data.GetUkrWord();            
             _resoursePhoto = data.GetDictionary.Keys.First();
 
+            Word.Initialize();
         }
     }
 }

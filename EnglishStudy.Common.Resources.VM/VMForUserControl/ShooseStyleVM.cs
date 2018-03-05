@@ -1,5 +1,6 @@
 ﻿
 using EnglishStudy.Common.Resources.VM.Abstract;
+using EnglishStudy.Recourses.Style.Implement;
 using static EnglishStudy.Common.Resources.VM.Base.ViewModalBase;
 
 namespace EnglishLearn.Common.Resources.VM.VMForUserControl
@@ -11,6 +12,7 @@ namespace EnglishLearn.Common.Resources.VM.VMForUserControl
         public ShooseStyleVM(IMainWindowsCodeBehind codeBehind)
         {
             _codeBehind = codeBehind;
+            
         }
     }
 }

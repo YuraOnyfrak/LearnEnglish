@@ -11,6 +11,10 @@ namespace EnglishStudy.BL.Implement.Implement
 {
     public class SomeSetting
     {
+        static Random random = new Random();
+
+        static List<string> _list = new List<string>();
+
         public static void AddTB(ObservableCollection<TextBox> collection, int length)
         {
             for (int i = 0; i < length; i++)
@@ -34,9 +38,19 @@ namespace EnglishStudy.BL.Implement.Implement
 
         public static void AddTextToTB( char [] mas, ObservableCollection<TextBox> collection)
         {
+            string currentWord = String.Empty;
+
             for (int i = 0; i < collection.Count; i++)
             {
-                collection[i].Text = mas[i].ToString();
+                _list.Add(mas[i].ToString());
+                
+            }
+
+            for (int i = 0; i < collection.Count; i++)
+            {
+                currentWord = _list.ElementAt(random.Next(0, _list.Count));
+                collection[i].Text = currentWord;
+                _list.Remove(currentWord);
             }
         }
     }

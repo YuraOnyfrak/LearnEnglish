@@ -11,7 +11,11 @@ namespace EnglishStudy.Entity.Abstract.Enum
         LearnWords,
         TestWords,
         DesignWords,
-        Lisening
+        Lisening,
+        ShooseThems,
+        ResultLearning,
+        Translate,
+        AddWords
 
     }
 }

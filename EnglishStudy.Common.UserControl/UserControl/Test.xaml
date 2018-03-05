@@ -5,6 +5,27 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EnglishStudy.Common.UserControl.UserControl"
              mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="FontSize" Value="20" />
+            </Style.Setters>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="True" />                        
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="FontSize" Value="24" />                       
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    
     <Grid>
         <DockPanel LastChildFill="True">
             <Grid DockPanel.Dock="Top"  Margin="15">
@@ -54,9 +75,9 @@
                             <Grid  DockPanel.Dock="Right">
                                 <StackPanel VerticalAlignment="Center">
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBox  x:Name="version2" MinWidth="200" Margin="10"  Text="{Binding Path=VersionOne, UpdateSourceTrigger=PropertyChanged}">
+                                        <TextBox  x:Name="version2" MinWidth="200" Margin="10"  Text="{Binding Path=VersionOne, UpdateSourceTrigger=PropertyChanged}" Background="{Binding BrushObj}">
                                             <TextBox.InputBindings>
-                                                <MouseBinding Command="{Binding YourShoose}" MouseAction="LeftClick" ></MouseBinding>
+                                                <MouseBinding Command="{Binding YourShooseVersionOne}" MouseAction="LeftClick" ></MouseBinding>
                                             </TextBox.InputBindings>
                                         </TextBox>
                                         <Label Content="1" Margin="10" ></Label>
@@ -64,7 +85,7 @@
                                     <StackPanel Orientation="Horizontal">
                                         <TextBox  x:Name="version3" MinWidth="200" Margin="10"  Text="{Binding Path=VersionTwo, UpdateSourceTrigger=PropertyChanged}">
                                             <TextBox.InputBindings>
-                                                <MouseBinding Command="{Binding YourShoose}" MouseAction="LeftClick" ></MouseBinding>
+                                                <MouseBinding Command="{Binding YourShooseVersionTwo}" MouseAction="LeftClick" ></MouseBinding>
                                             </TextBox.InputBindings>
                                         </TextBox>
                                         <Label Content="2" Margin="10" ></Label>
@@ -72,15 +93,15 @@
                                     <StackPanel Orientation="Horizontal">
                                         <TextBox MinWidth="200" Margin="10"  Text="{Binding Path=VersionThree, UpdateSourceTrigger=PropertyChanged}">
                                             <TextBox.InputBindings>
-                                                <MouseBinding Command="{Binding YourShoose}" MouseAction="LeftClick" ></MouseBinding>
+                                                <MouseBinding Command="{Binding YourShooseVersionThree}" MouseAction="LeftClick" ></MouseBinding>
                                             </TextBox.InputBindings>
                                         </TextBox>
                                         <Label Content="3" Margin="10" ></Label>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBox MinWidth="200" Margin="10"  Text="{Binding Path=VersionFour, UpdateSourceTrigger=PropertyChanged}">
+                                        <TextBox MinWidth="200" Margin="10"  Text="{Binding Path=VersionFour, UpdateSourceTrigger=PropertyChanged}" >
                                             <TextBox.InputBindings>
-                                                <MouseBinding Command="{Binding YourShoose}" MouseAction="LeftClick" ></MouseBinding>
+                                                <MouseBinding Command="{Binding YourShooseVersionFour}" MouseAction="LeftClick"  ></MouseBinding>
                                             </TextBox.InputBindings>
                                         </TextBox>
                                         <Label Content="4" Margin="10" ></Label>
@@ -88,7 +109,7 @@
                                     <StackPanel Orientation="Horizontal">
                                         <TextBox MinWidth="200" Margin="10"  Text="{Binding Path=VersionFive, UpdateSourceTrigger=PropertyChanged}">
                                             <TextBox.InputBindings>
-                                                <MouseBinding Command="{Binding YourShoose}" MouseAction="LeftClick" ></MouseBinding>
+                                                <MouseBinding Command="{Binding YourShooseVersionFive}" MouseAction="LeftClick" ></MouseBinding>
                                             </TextBox.InputBindings>
                                         </TextBox>
                                         <Label Content="5" Margin="10" ></Label>
@@ -96,7 +117,7 @@
                                     <StackPanel Orientation="Horizontal">
                                         <TextBox MinWidth="200" Margin="10"  Text="{Binding Path=VersionSix, UpdateSourceTrigger=PropertyChanged}">
                                             <TextBox.InputBindings>
-                                                <MouseBinding Command="{Binding YourShoose}" MouseAction="LeftClick" ></MouseBinding>
+                                                <MouseBinding Command="{Binding YourShooseVersionSix}" MouseAction="LeftClick" ></MouseBinding>
                                             </TextBox.InputBindings>
                                         </TextBox>
                                         <Label Content="6" Margin="10" ></Label>
@@ -120,4 +141,5 @@
             </Border>
         </DockPanel>
     </Grid>
+    
 </UserControl>

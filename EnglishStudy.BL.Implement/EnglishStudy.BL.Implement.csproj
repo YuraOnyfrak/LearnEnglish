@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GoogleTranslateAPI, Version=0.3.1.107, Culture=neutral, PublicKeyToken=37a8e65b17fcdcbb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Translate.api.0.3.1\lib\net40\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=104.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -45,22 +51,34 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WebTTS, Version=1.0.6235.19053, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebTTS.1.0.6235.19053\lib\net40\WebTTS.dll</HintPath>
+    </Reference>
+    <Reference Include="WebTTS.GoogleTranslate, Version=1.0.6312.18505, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebTTS.GoogleTranslate.1.0.6312.18505\lib\net40\WebTTS.GoogleTranslate.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="YandexLinguistics.NET, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EnglishStudy.Common.Resources.VM\bin\Debug\YandexLinguistics.NET.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
+    <ApplicationDefinition Include="Implement\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="App.xaml.cs">
+    <Compile Include="Implement\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implement\BTransletor.cs" />
     <Compile Include="Implement\Data.cs" />
+    <Compile Include="Implement\GooglePlusAccessToken.cs" />
     <Compile Include="Implement\LearnWord.cs" />
     <Compile Include="Implement\SomeSetting.cs" />
     <Compile Include="Implement\Word.cs" />
@@ -81,6 +99,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +107,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnglishStudy.DB.Abstract\EnglishStudy.DB.Implement.csproj">
+      <Project>{9c072e27-65a3-401b-a8ae-2afe192030ab}</Project>
+      <Name>EnglishStudy.DB.Implement</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

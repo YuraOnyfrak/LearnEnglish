@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\App.xaml
-61997787474
+9-540815471
 
-141539682436
+171794189000
 13781053478
-UserControl\DesignerWord.xaml;UserControl\LearnWords.xaml;UserControl\Lisening.xaml;UserControl\SettingView.xaml;UserControl\Test.xaml;UserControl\Translate.xaml;
+UserControl\AddWordsUC.xaml;UserControl\DesignerWord.xaml;UserControl\Enter.xaml;UserControl\LearnWords.xaml;UserControl\Lisening.xaml;UserControl\ResultLearning.xaml;UserControl\SettingView.xaml;UserControl\Test.xaml;UserControl\Translate.xaml;
 
-False
+True
 

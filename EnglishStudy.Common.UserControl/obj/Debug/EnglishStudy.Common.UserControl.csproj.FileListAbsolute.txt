@@ -1,5 +1,11 @@
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\SettingView.baml
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\AddWordsUC.g.cs
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\DesignerWord.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Enter.g.cs
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\LearnWords.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Lisening.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\ResultLearning.g.cs
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\SettingView.g.cs
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Test.g.cs
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Translate.g.cs
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\App.g.cs
@@ -8,8 +14,12 @@ E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\D
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\bin\Debug\EnglishStudy.Common.UserControl.exe.config
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\bin\Debug\EnglishStudy.Common.UserControl.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\bin\Debug\EnglishStudy.Common.UserControl.pdb
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\AddWordsUC.baml
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\DesignerWord.baml
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Enter.baml
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\LearnWords.baml
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Lisening.baml
+E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\ResultLearning.baml
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Test.baml
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Translate.baml
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.g.resources
@@ -19,5 +29,3 @@ E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\D
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.pdb
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.csprojResolveAssemblyReference.cache
-E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Lisening.g.cs
-E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Lisening.baml

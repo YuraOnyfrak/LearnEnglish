@@ -3,6 +3,7 @@ using EnglishStudy.Common.Resources.VM.Abstract;
 using EnglishStudy.Common.Resources.VM.VMForUserControl;
 using EnglishStudy.Common.UserControl.UserControl;
 using EnglishStudy.Entity.Abstract.Enum;
+using EnglishStudy.Recourses.Style.Implement;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,10 +38,11 @@ namespace EnglishStudy
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            LoadView(ViewType.LearnWords);
+            LoadView(ViewType.ShooseThems);
+            UpdateStyle.SetThemes("Dark");//0003B FFD0B 85B84F
         }
-               
-       
+
+
 
         private void MainWindow_Closing(object sender,
             System.ComponentModel.CancelEventArgs e)
@@ -84,7 +86,28 @@ namespace EnglishStudy
                     Lisening lisening = new Lisening();
                     LiseningVM vmLisening = new LiseningVM(this);
                     LoadUserControl(lisening, vmLisening);
+                    break;                    
+                 case ViewType.ShooseThems:
+                    SettingView settingView = new SettingView();
+                    ShooseStyleVM vmShooseStyle = new ShooseStyleVM(this);
+                    LoadUserControl(settingView, vmShooseStyle);
                     break;
+                case ViewType.ResultLearning:
+                    ResultLearning resultLearning = new ResultLearning();
+                    ResultLearningVM vmResultLearning = new ResultLearningVM();
+                    LoadUserControl(resultLearning, vmResultLearning);
+                    break;
+                case ViewType.Translate:
+                    Translate translate = new Translate();
+                    TranslateVM translateVM = new TranslateVM();
+                    LoadUserControl(translate, translateVM);
+                    break;
+                case ViewType.AddWords:
+                    AddWordsVM addWordsVM = new AddWordsVM();
+                    AddWordsUC addWordsUC = new AddWordsUC(); 
+                    LoadUserControl(addWordsUC, addWordsVM);
+                    break;
+
 
 
             }

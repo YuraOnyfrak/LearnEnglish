@@ -58,14 +58,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="UserControl\AddWordsUC.xaml.cs">
+      <DependentUpon>AddWordsUC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\DesignerWord.xaml.cs">
       <DependentUpon>DesignerWord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Enter.xaml.cs">
+      <DependentUpon>Enter.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControl\LearnWords.xaml.cs">
       <DependentUpon>LearnWords.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControl\Lisening.xaml.cs">
       <DependentUpon>Lisening.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ResultLearning.xaml.cs">
+      <DependentUpon>ResultLearning.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControl\SettingView.xaml.cs">
       <DependentUpon>SettingView.xaml</DependentUpon>
@@ -104,7 +113,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="UserControl\AddWordsUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControl\DesignerWord.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\Enter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -113,6 +130,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\Lisening.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\ResultLearning.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

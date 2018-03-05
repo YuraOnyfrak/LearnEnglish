@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebTTS.GoogleTranslate</name>
+    </assembly>
+    <members>
+        <member name="T:WebTTS.GoogleTranslate.GoogleTranslateSpeechProvider">
+            <summary>
+            Provides Text-to-Speech using Google Translate service.
+            </summary>
+        </member>
+        <member name="M:WebTTS.GoogleTranslate.GoogleTranslateSpeechProvider.CreateSpeech(System.String,System.String)">
+            <summary>
+            Create speech using specified text and saves to desired location. 
+            </summary>
+            <param name="text">Text to be spoken.</param>
+            <param name="outputPath">Fullpath to output file.</param>
+        </member>
+        <member name="M:WebTTS.GoogleTranslate.GoogleTranslateSpeechProvider.Speak(System.String)">
+            <summary>
+            Speak specified text syncronously.
+            </summary>
+            <param name="text">Text to be spoken</param>
+        </member>
+        <member name="M:WebTTS.GoogleTranslate.GoogleTranslateSpeechProvider.SpeakAsync(System.String)">
+            <summary>
+            Speak specified text asyncronously.
+            </summary>
+            <param name="text">Text to be spoken</param>
+        </member>
+    </members>
+</doc>
