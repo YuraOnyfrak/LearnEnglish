@@ -23,7 +23,7 @@ namespace EnglishStudy.Common.Resources.VM.VMForUserControl
         #endregion
         private IMainWindowsCodeBehind _codeBehind;
 
-#region
+        #region
         public string UkrWord
         {
             get { return _ukrWord; }
@@ -68,7 +68,6 @@ namespace EnglishStudy.Common.Resources.VM.VMForUserControl
 
 #endregion
 
-       
 
         public AddWordsVM()
         {

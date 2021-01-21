@@ -8,3 +8,13 @@ E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debu
 E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.pdb
 E:\Програмування\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.csprojResolveAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\bin\Debug\EnglishStudy.Recourses.Style.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\bin\Debug\EnglishStudy.Recourses.Style.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\bin\Debug\EnglishStudy.Recourses.Style.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.csprojAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\App.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style_MarkupCompile.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.g.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.csproj.CoreCompileInputs.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Recourses.Style\obj\Debug\EnglishStudy.Recourses.Style.pdb

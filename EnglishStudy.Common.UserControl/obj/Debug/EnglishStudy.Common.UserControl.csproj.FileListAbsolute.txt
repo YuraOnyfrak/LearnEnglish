@@ -29,3 +29,34 @@ E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\D
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.pdb
 E:\Програмування\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.csprojResolveAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\bin\Debug\EnglishStudy.Common.UserControl.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\bin\Debug\EnglishStudy.Common.UserControl.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\bin\Debug\EnglishStudy.Common.UserControl.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.csprojAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\SettingView.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\AddWordsUC.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\DesignerWord.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Enter.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\LearnWords.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Lisening.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\ResultLearning.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\SettingView.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Test.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Translate.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\App.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl_MarkupCompile.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl_MarkupCompile.lref
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\AddWordsUC.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\DesignerWord.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Enter.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\LearnWords.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Lisening.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\ResultLearning.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Test.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\UserControl\Translate.baml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.g.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.Properties.Resources.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.csproj.GenerateResource.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.csproj.CoreCompileInputs.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.UserControl\obj\Debug\EnglishStudy.Common.UserControl.pdb

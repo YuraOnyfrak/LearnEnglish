@@ -9,3 +9,14 @@ E:\Програмування\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\En
 E:\Програмування\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Abstract.exe
 E:\Програмування\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Abstract.pdb
 E:\Програмування\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Implement.csprojResolveAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\bin\Debug\EnglishStudy.DB.Abstract.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\bin\Debug\EnglishStudy.DB.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\bin\Debug\EnglishStudy.DB.Abstract.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Implement.csprojAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\App.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Abstract_MarkupCompile.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Abstract.Properties.Resources.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Implement.csproj.GenerateResource.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Implement.csproj.CoreCompileInputs.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.DB.Abstract\obj\Debug\EnglishStudy.DB.Abstract.pdb

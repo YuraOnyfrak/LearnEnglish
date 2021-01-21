@@ -31,3 +31,37 @@ E:\Програмування\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\
 E:\Програмування\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\System.Net.Http.Primitives.xml
 E:\Програмування\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Common.Resources.VM.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Common.Resources.VM.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Common.Resources.VM.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.BL.Implement.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Common.UserControl.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.DB.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Entity.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Recourses.Style.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\Newtonsoft.Json.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\System.Net.Http.Extensions.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\System.Net.Http.Primitives.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.BL.Implement.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.BL.Implement.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Common.UserControl.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Common.UserControl.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.DB.Abstract.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.DB.Abstract.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Entity.Abstract.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Entity.Abstract.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Recourses.Style.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\EnglishStudy.Recourses.Style.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\Newtonsoft.Json.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\System.Net.Http.Extensions.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\bin\Debug\System.Net.Http.Primitives.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.csproj.App.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.csprojAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\App.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM_MarkupCompile.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.Properties.Resources.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.csproj.GenerateResource.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.csproj.CoreCompileInputs.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.csproj.CopyComplete
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Common.Resources.VM\obj\Debug\EnglishStudy.Common.Resources.VM.pdb

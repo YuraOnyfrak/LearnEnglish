@@ -21,3 +21,27 @@ E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\E
 E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csproj.CoreCompileInputs.cache
 E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.exe
 E:\Програмування\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.BL.Implement.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.BL.Implement.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.BL.Implement.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.DB.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\GoogleTranslateAPI.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\RestSharp.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\WebTTS.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\WebTTS.GoogleTranslate.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\YandexLinguistics.NET.dll
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.DB.Abstract.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\EnglishStudy.DB.Abstract.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\GoogleTranslateAPI.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\RestSharp.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\WebTTS.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\bin\Debug\WebTTS.GoogleTranslate.xml
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csprojAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\Implement\App.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement_MarkupCompile.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.Properties.Resources.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csproj.GenerateResource.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csproj.CoreCompileInputs.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.csproj.CopyComplete
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.BL.Implement\obj\Debug\EnglishStudy.BL.Implement.pdb

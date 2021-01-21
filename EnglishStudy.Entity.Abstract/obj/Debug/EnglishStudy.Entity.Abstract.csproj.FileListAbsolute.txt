@@ -8,3 +8,14 @@ E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debu
 E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csproj.CoreCompileInputs.cache
 E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.exe
 E:\Програмування\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\bin\Debug\EnglishStudy.Entity.Abstract.exe.config
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\bin\Debug\EnglishStudy.Entity.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\bin\Debug\EnglishStudy.Entity.Abstract.pdb
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csprojAssemblyReference.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\App.g.cs
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract_MarkupCompile.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.Properties.Resources.resources
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csproj.GenerateResource.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.csproj.CoreCompileInputs.cache
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.exe
+D:\Навчання\Програми на С#\EnglishStudy\EnglishStudy.Entity.Abstract\obj\Debug\EnglishStudy.Entity.Abstract.pdb
